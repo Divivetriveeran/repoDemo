@@ -1,7 +1,4 @@
+package com.example.calculator;
 public class Addition {
-    public static void main(String[] args) {
-        int a = 5, b = 10;
-        int sum = a + b;
-        System.out.println("Sum: " + sum);
-    }
+    public static int add(int a, int b) { return a + b; }
 }
